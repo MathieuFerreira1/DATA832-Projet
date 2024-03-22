@@ -1,0 +1,4 @@
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\data\test_dataset_to_challengers_2021.csv
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\data\test_dataset_secret_2021.csv
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\data\bankable_consumer_train.csv
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\info_init\bankable_consumer_train.csv
