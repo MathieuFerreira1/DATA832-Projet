@@ -1,0 +1,33 @@
+2024-03-22 15:37:21,038 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:56 : The file 'file:/home/alben/datachallenge_name1_name2_2021.csv' can't be accessed anymore!
+2024-03-22 15:37:21,046 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-03-22 15:37:21,049 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:57 : The file 'file:/home/alben/test_dataset_secret_2021.csv' can't be accessed anymore!
+2024-03-22 15:37:21,051 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-03-22 15:37:21,088 : WARN  : ModalContext :  : Node : Partitioning : 3:5 : Column 'bankable' for stratified sampling does not exist
+2024-03-22 15:37:21,089 : WARN  : ModalContext :  : Node : Partitioning : 3:5 : Column 'bankable' for stratified sampling does not exist
+2024-03-22 15:38:49,793 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 15:38:50,220 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 15:43:47,500 : ERROR : KNIME-Worker-7-CSV Reader 3:69 :  : Node : CSV Reader : 3:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-03-22 15:43:47,513 : WARN  : KNIME-Worker-7-CSV Reader 3:69 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 15:43:47,817 : WARN  : KNIME-Worker-6-CSV Reader 3:65 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 15:43:47,973 : WARN  : KNIME-Worker-8-Partitioning 3:5 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.

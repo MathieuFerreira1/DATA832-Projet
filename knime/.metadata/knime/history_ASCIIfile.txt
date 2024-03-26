@@ -1,0 +1,3 @@
+file:/home/alben/test_dataset_secret_2021.csv
+file:/home/alben/datachallenge_name1_name2_2021.csv
+knime://knime.workflow/data.all
