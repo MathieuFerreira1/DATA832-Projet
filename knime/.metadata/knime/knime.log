@@ -31,3 +31,492 @@ org.knime.core.node.InvalidSettingsException: The specified file \home\alben\tes
 2024-03-22 15:43:47,513 : WARN  : KNIME-Worker-7-CSV Reader 3:69 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
 2024-03-22 15:43:47,817 : WARN  : KNIME-Worker-6-CSV Reader 3:65 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
 2024-03-22 15:43:47,973 : WARN  : KNIME-Worker-8-Partitioning 3:5 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:18:34,733 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-03-22 16:18:34,737 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-03-22 16:18:34,740 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-03-22 16:18:34,741 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-03-22 16:18:34,796 : WARN  : ModalContext :  : Node : CSV Reader : 3:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+2024-03-22 16:18:34,807 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:18:34,808 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:18:59,377 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:19:00,478 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:20:33,086 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:20:33,086 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Second input table does not contain a column: 'workclass (to number)'
+2024-03-22 16:20:58,559 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:20:58,559 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Second input table does not contain a column: 'workclass (to number)'
+2024-03-22 16:20:59,662 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:20:59,662 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Second input table does not contain a column: 'workclass (to number)'
+2024-03-22 16:21:06,615 : ERROR : KNIME-Worker-4-CSV Reader 3:69 :  : Node : CSV Reader : 3:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-03-22 16:21:06,619 : WARN  : KNIME-Worker-4-CSV Reader 3:69 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:21:06,620 : WARN  : KNIME-Worker-4-CSV Reader 3:69 :  : Node : K Nearest Neighbor : 3:2 : Second input table does not contain a column: 'workclass (to number)'
+2024-03-22 16:21:06,816 : WARN  : KNIME-Worker-5-Category to Number 3:74 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:21:06,817 : WARN  : KNIME-Worker-5-Category to Number 3:74 :  : Node : K Nearest Neighbor : 3:2 : Second input table does not contain a column: 'workclass (to number)'
+2024-03-22 16:23:28,690 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:24:16,643 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:24:17,580 : WARN  : main :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:24:20,219 : ERROR : KNIME-Worker-7-CSV Reader 3:69 :  : Node : CSV Reader : 3:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-03-22 16:24:20,220 : WARN  : KNIME-Worker-7-CSV Reader 3:69 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:24:20,409 : WARN  : KNIME-Worker-6-CSV Reader 3:65 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-03-22 16:24:20,576 : WARN  : KNIME-Worker-8-Partitioning 3:5 :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:26:20,050 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:56 : The file 'file:/home/alben/datachallenge_name1_name2_2021.csv' can't be accessed anymore!
+2024-04-01 20:26:20,056 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:26:20,063 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:57 : The file 'file:/home/alben/test_dataset_secret_2021.csv' can't be accessed anymore!
+2024-04-01 20:26:20,064 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:26:20,103 : WARN  : ModalContext :  : Node : Partitioning : 3:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 20:26:20,104 : WARN  : ModalContext :  : Node : Partitioning : 3:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 20:26:23,642 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:26:23,644 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:26:23,648 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:26:23,649 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:26:23,793 : WARN  : ModalContext :  : Node : CSV Reader : 4:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+2024-04-01 20:26:23,857 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:26:23,858 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:26:37,180 : WARN  : main :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:26:44,113 : WARN  : main :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:26:46,754 : ERROR : KNIME-Worker-0-CSV Reader 4:69 :  : Node : CSV Reader : 4:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-04-01 20:26:46,769 : WARN  : KNIME-Worker-0-CSV Reader 4:69 :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:27:16,023 : WARN  : main :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:27:26,694 : WARN  : KNIME-Worker-2-K Nearest Neighbor 4:2 :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:29:19,336 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:29:19,337 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:29:19,348 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:29:19,349 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 6:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-01 20:29:19,362 : WARN  : ModalContext :  : Node : CSV Reader : 6:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+2024-04-01 20:29:19,368 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 6:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:29:19,369 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 6:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:29:56,225 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:31:21,337 : WARN  : main :  : Node : Scorer : 6:74 : No columns selected yet.
+2024-04-01 20:31:22,915 : ERROR : KNIME-Worker-7-CSV Reader 6:69 :  : Node : CSV Reader : 6:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-04-01 20:31:22,917 : WARN  : KNIME-Worker-7-CSV Reader 6:69 :  : Node : K Nearest Neighbor : 6:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:31:25,216 : ERROR : KNIME-Worker-8-CSV Reader 6:69 :  : Node : CSV Reader : 6:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-04-01 20:31:25,219 : WARN  : KNIME-Worker-8-CSV Reader 6:69 :  : Node : K Nearest Neighbor : 6:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:31:30,161 : WARN  : main :  : Node : K Nearest Neighbor : 6:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:31:30,162 : WARN  : main :  : Node : Scorer : 6:74 : No columns selected yet.
+2024-04-01 20:31:31,343 : WARN  : KNIME-Worker-9-K Nearest Neighbor 6:2 :  : Node : K Nearest Neighbor : 6:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:31:31,635 : WARN  : KNIME-Worker-9-K Nearest Neighbor 6:2 :  : Node : Scorer : 6:74 : No columns selected yet.
+2024-04-01 20:32:35,351 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:32:36,232 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:32:39,403 : WARN  : KNIME-Worker-7-CSV Reader 5:65 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:32:39,551 : WARN  : KNIME-Worker-8-Partitioning 5:5 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:32:39,553 : WARN  : KNIME-Worker-9-K Nearest Neighbor 5:2 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:33:50,273 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:33:55,292 : WARN  : KNIME-Worker-11-Category to Number 5:66 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:33:55,398 : WARN  : KNIME-Worker-7-Partitioning 5:5 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:33:55,399 : WARN  : KNIME-Worker-8-K Nearest Neighbor 5:2 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:34:35,111 : WARN  : main :  : Node : Scorer : 5:67 : No columns selected yet.
+2024-04-01 20:37:21,023 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:37:34,977 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:39:00,791 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:39:01,301 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:39:04,391 : WARN  : KNIME-Worker-16-Table Manipulator 5:68 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:39:04,443 : WARN  : KNIME-Worker-17-Category to Number 5:66 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:39:04,508 : WARN  : KNIME-Worker-14-Partitioning 5:5 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:39:04,509 : WARN  : KNIME-Worker-15-K Nearest Neighbor 5:2 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:39:35,365 : WARN  : main :  : Node : String Replacer : 5:69 : No String column available.
+2024-04-01 20:39:50,247 : WARN  : main :  : Node : String Replacer : 5:69 : No column selected, using 'education.concat'.
+2024-04-01 20:41:45,462 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:41:47,307 : WARN  : KNIME-Worker-20-Category to Number 5:66 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:41:47,556 : WARN  : KNIME-Worker-21-Partitioning 5:5 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:41:47,559 : WARN  : KNIME-Worker-18-K Nearest Neighbor 5:2 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:42:13,032 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:42:13,594 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:42:20,488 : WARN  : KNIME-Worker-20-K Nearest Neighbor 5:2 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:42:53,550 : WARN  : main :  : Node : Decision Tree Learner : 5:70 : Guessing target column: "education.concat".
+2024-04-01 20:43:30,048 : WARN  : main :  : Node : Scorer : 5:72 : Column 'Class [kNN]' not found.
+2024-04-01 20:43:33,040 : WARN  : KNIME-Worker-23-Decision Tree Predictor 5:71 :  : Node : Scorer : 5:72 : Column 'Class [kNN]' not found.
+2024-04-01 20:44:06,568 : WARN  : main :  : Node : Scorer : 5:72 : Column 'Prediction (education.concat)' not found.
+2024-04-01 20:44:07,499 : WARN  : main :  : Node : Scorer : 5:72 : Column 'Prediction (education.concat)' not found.
+2024-04-01 20:45:27,541 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:45:28,479 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:45:30,647 : WARN  : KNIME-Worker-26-Partitioning 5:5 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:45:30,650 : WARN  : KNIME-Worker-24-K Nearest Neighbor 5:2 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:47:10,023 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:48:25,831 : WARN  : main :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:48:29,597 : WARN  : KNIME-Worker-27-Partitioning 5:5 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 20:48:29,599 : WARN  : KNIME-Worker-28-K Nearest Neighbor 5:2 :  : Node : K Nearest Neighbor : 5:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-01 21:00:54,376 : WARN  : main :  : WrappedNodeDialog : Table Manipulator : 5:73 : failed to apply settings: Some names are invalid.
+org.knime.core.node.InvalidSettingsException: Some names are invalid.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.transformer.TableTransformationPanel.commitChanges(TableTransformationPanel.java:261)
+	at org.knime.base.node.preproc.manipulator.TableManipulatorNodeDialog.saveSettingsTo(TableManipulatorNodeDialog.java:314)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-04-01 21:00:57,157 : WARN  : main :  : WrappedNodeDialog : Table Manipulator : 5:73 : failed to apply settings: Some names are invalid.
+org.knime.core.node.InvalidSettingsException: Some names are invalid.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.transformer.TableTransformationPanel.commitChanges(TableTransformationPanel.java:261)
+	at org.knime.base.node.preproc.manipulator.TableManipulatorNodeDialog.saveSettingsTo(TableManipulatorNodeDialog.java:314)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-04-01 21:01:02,227 : WARN  : main :  : WrappedNodeDialog : Table Manipulator : 5:73 : failed to apply settings: Some names are invalid.
+org.knime.core.node.InvalidSettingsException: Some names are invalid.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.transformer.TableTransformationPanel.commitChanges(TableTransformationPanel.java:261)
+	at org.knime.base.node.preproc.manipulator.TableManipulatorNodeDialog.saveSettingsTo(TableManipulatorNodeDialog.java:314)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-04-01 21:01:36,741 : WARN  : main :  : WrappedNodeDialog : Table Manipulator : 5:73 : failed to apply settings: Some names are invalid.
+org.knime.core.node.InvalidSettingsException: Some names are invalid.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.transformer.TableTransformationPanel.commitChanges(TableTransformationPanel.java:261)
+	at org.knime.base.node.preproc.manipulator.TableManipulatorNodeDialog.saveSettingsTo(TableManipulatorNodeDialog.java:314)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-04-01 21:01:43,711 : WARN  : main :  : WrappedNodeDialog : Table Manipulator : 5:73 : failed to apply settings: Some names are invalid.
+org.knime.core.node.InvalidSettingsException: Some names are invalid.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.transformer.TableTransformationPanel.commitChanges(TableTransformationPanel.java:261)
+	at org.knime.base.node.preproc.manipulator.TableManipulatorNodeDialog.saveSettingsTo(TableManipulatorNodeDialog.java:314)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-04-01 21:04:05,599 : WARN  : main :  : WrappedNodeDialog : Table Manipulator : 5:73 : failed to apply settings: Some names are invalid.
+org.knime.core.node.InvalidSettingsException: Some names are invalid.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.transformer.TableTransformationPanel.commitChanges(TableTransformationPanel.java:261)
+	at org.knime.base.node.preproc.manipulator.TableManipulatorNodeDialog.saveSettingsTo(TableManipulatorNodeDialog.java:314)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-04-01 21:09:25,366 : WARN  : main :  : WrappedNodeDialog : Table Manipulator : 5:73 : failed to apply settings: Some names are invalid.
+org.knime.core.node.InvalidSettingsException: Some names are invalid.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.transformer.TableTransformationPanel.commitChanges(TableTransformationPanel.java:261)
+	at org.knime.base.node.preproc.manipulator.TableManipulatorNodeDialog.saveSettingsTo(TableManipulatorNodeDialog.java:314)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-04-01 21:10:42,203 : WARN  : KNIME-Worker-33-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:11:15,884 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:11:16,213 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:11:48,606 : WARN  : main :  : Node : Partitioning : 5:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 21:11:50,048 : WARN  : main :  : Node : Partitioning : 5:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 21:13:39,523 : WARN  : KNIME-Worker-35-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:14:09,928 : WARN  : main :  : Node : Category to Number : 5:66 : Input table does not contain the following selected column(s): "marital.status", "workclass", "occupation",  ... <7 more>
+2024-04-01 21:14:28,593 : WARN  : main :  : Node : Category to Number : 5:66 : Input table does not contain the following selected column(s): "marital.status", "workclass", "occupation",  ... <7 more>
+2024-04-01 21:14:29,161 : WARN  : main :  : Node : Category to Number : 5:66 : Input table does not contain the following selected column(s): "marital.status", "workclass", "occupation",  ... <7 more>
+2024-04-01 21:14:45,674 : WARN  : main :  : Node : Category to Number : 5:66 : Input table does not contain the following selected column(s): "marital.status", "workclass", "occupation",  ... <7 more>
+2024-04-01 21:14:48,592 : WARN  : main :  : Node : Category to Number : 5:66 : Input table does not contain the following selected column(s): "marital.status", "workclass", "occupation",  ... <7 more>
+2024-04-01 21:14:59,186 : WARN  : KNIME-Worker-35-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:15:11,085 : WARN  : KNIME-Worker-32-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:16:02,438 : WARN  : KNIME-Worker-36-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:16:27,090 : WARN  : KNIME-Worker-34-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:20:26,407 : WARN  : KNIME-Worker-40-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:20:56,503 : ERROR : KNIME-Worker-37-Scorer 5:72 :  : Node : Scorer : 5:72 : Execute failed: Missing value in row: Row15
+java.lang.IllegalStateException: Missing value in row: Row15
+	at org.knime.core.node.util.CheckUtils.checkState(CheckUtils.java:266)
+	at org.knime.core.node.util.CheckUtils.checkState(CheckUtils.java:148)
+	at org.knime.base.node.mine.scorer.accuracy.AbstractAccuracyScorerNodeModel.execute(AbstractAccuracyScorerNodeModel.java:252)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-04-01 21:21:06,356 : WARN  : KNIME-Worker-38-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:21:54,811 : WARN  : main :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:22:29,236 : WARN  : KNIME-Worker-37-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:23:02,122 : WARN  : KNIME-Worker-40-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:23:34,291 : WARN  : main :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:23:34,633 : WARN  : main :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:23:37,138 : WARN  : KNIME-Worker-37-One to Many 5:69 :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:25:21,983 : WARN  : KNIME-Worker-38-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:25:59,135 : WARN  : KNIME-Worker-38-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:26:28,931 : WARN  : KNIME-Worker-39-Scorer 5:77 :  : Node : Scorer : 5:77 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:26:37,545 : WARN  : main :  : Node : Partitioning : 5:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 21:26:37,545 : WARN  : main :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:26:37,546 : WARN  : main :  : Node : Partitioning : 5:74 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 21:26:38,599 : WARN  : main :  : Node : Partitioning : 5:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 21:26:38,600 : WARN  : main :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:26:38,600 : WARN  : main :  : Node : Partitioning : 5:74 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 21:26:40,685 : WARN  : KNIME-Worker-40-One to Many 5:69 :  : Node : Partitioning : 5:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 21:26:40,685 : WARN  : KNIME-Worker-40-One to Many 5:69 :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:26:40,687 : WARN  : KNIME-Worker-37-Category to Number 5:66 :  : Node : Partitioning : 5:74 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 21:27:26,291 : WARN  : KNIME-Worker-39-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:27:47,059 : WARN  : main :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:27:48,031 : WARN  : main :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:27:59,820 : WARN  : KNIME-Worker-40-One to Many 5:69 :  : Node : Category to Number : 5:66 : No columns selected.
+2024-04-01 21:29:00,329 : WARN  : main :  : Node : K Nearest Neighbor : 5:75 : Auto-selected column 'bankable' as class column.
+2024-04-01 21:29:10,864 : WARN  : main :  : Node : Scorer : 5:76 : Column 'Prediction (bankable)' not found.
+2024-04-01 21:29:13,628 : WARN  : KNIME-Worker-38-K Nearest Neighbor 5:75 :  : Node : Scorer : 5:76 : Column 'Prediction (bankable)' not found.
+2024-04-01 21:31:31,014 : WARN  : main :  : Node : RProp MLP Learner : 5:77 : Class column not set
+2024-04-01 21:32:07,586 : WARN  : main :  : Node : RProp MLP Learner : 5:77 : Input data not normalized. Please consider using the Normalizer Node first.
+2024-04-01 21:32:09,391 : WARN  : main :  : Node : RProp MLP Learner : 5:77 : Input data not normalized. Please consider using the Normalizer Node first.
+2024-04-01 21:32:48,548 : WARN  : main :  : Node : Scorer : 5:79 : Column 'Class [kNN]' not found.
+2024-04-01 21:33:25,354 : WARN  : main :  : Node : RProp MLP Learner : 5:77 : Input data not normalized. Please consider using the Normalizer Node first.
+2024-04-01 21:35:09,961 : WARN  : KNIME-Worker-42-Scorer 5:72 :  : Node : Scorer : 5:72 : There were missing values in the reference or in the prediction class columns.
+2024-04-01 21:39:19,832 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:39:20,398 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:39:39,937 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:39:40,553 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:40:13,930 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:40:14,453 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:42:58,531 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:42:59,089 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:44:23,817 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:44:24,256 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:44:36,329 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:44:37,287 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:45:13,701 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:45:14,314 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:45:28,093 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:45:28,527 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 21:49:19,788 : WARN  : KNIME-Worker-58-Decision Tree Predictor 5:71 :  : Node : Decision Tree Predictor : 5:71 : Tree only stored first 10000 (of 18071) rows for HiLiting!
+2024-04-01 21:49:30,429 : WARN  : KNIME-Worker-56-Decision Tree Predictor 5:71 :  : Node : Decision Tree Predictor : 5:71 : Tree only stored first 10000 (of 18071) rows for HiLiting!
+2024-04-01 21:52:13,879 : WARN  : main :  : Node : X-Aggregator : 5:80 : Selected columns 'Prediction (bankable)' and 'bankable' as prediction and target columns
+2024-04-01 22:02:17,854 : WARN  : KNIME-Worker-63-Decision Tree Learner 5:70 :  : Node : Decision Tree Learner : 5:70 : Execution canceled
+2024-04-01 22:02:51,752 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:02:52,420 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:03:03,926 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:03:04,263 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:03:27,472 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:03:27,958 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:04:03,240 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:04:03,717 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:06:30,726 : WARN  : main :  : Node : K Nearest Neighbor : 5:75 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unable to parse "c:\users\carlos andres cortes\onedrive\polytech\polytech4a\s8\data832\projet\data832-projet\knime" (variable "knime.workspace") as boolean expression (settings parameter "weightByDistance")
+2024-04-01 22:06:31,505 : WARN  : main :  : Node : K Nearest Neighbor : 5:75 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unable to parse "c:\users\carlos andres cortes\onedrive\polytech\polytech4a\s8\data832\projet\data832-projet\knime" (variable "knime.workspace") as boolean expression (settings parameter "weightByDistance")
+2024-04-01 22:07:10,866 : WARN  : main :  : Node : Simple Regression Tree Learner : 5:77 : No configuration available
+2024-04-01 22:07:41,742 : WARN  : main :  : Node : Simple Regression Tree Learner : 5:77 : No configuration available
+2024-04-01 22:07:41,743 : WARN  : main :  : Node : K Nearest Neighbor : 5:75 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unable to parse "c:\users\carlos andres cortes\onedrive\polytech\polytech4a\s8\data832\projet\data832-projet\knime" (variable "knime.workspace") as boolean expression (settings parameter "weightByDistance")
+2024-04-01 22:07:42,232 : WARN  : main :  : Node : Simple Regression Tree Learner : 5:77 : No configuration available
+2024-04-01 22:07:42,233 : WARN  : main :  : Node : K Nearest Neighbor : 5:75 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unable to parse "c:\users\carlos andres cortes\onedrive\polytech\polytech4a\s8\data832\projet\data832-projet\knime" (variable "knime.workspace") as boolean expression (settings parameter "weightByDistance")
+2024-04-01 22:07:47,378 : WARN  : KNIME-Worker-72-Partitioning 5:74 :  : Node : K Nearest Neighbor : 5:75 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unable to parse "c:\users\carlos andres cortes\onedrive\polytech\polytech4a\s8\data832\projet\data832-projet\knime" (variable "knime.workspace") as boolean expression (settings parameter "weightByDistance")
+2024-04-01 22:07:47,424 : WARN  : KNIME-Worker-71-Partitioning 5:5 :  : Node : Simple Regression Tree Learner : 5:77 : No configuration available
+2024-04-01 22:08:21,184 : WARN  : main :  : Node : Partitioning : 5:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 22:08:21,186 : WARN  : main :  : Node : Partitioning : 5:74 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 22:08:22,549 : WARN  : main :  : Node : Partitioning : 5:5 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 22:08:22,549 : WARN  : main :  : Node : Partitioning : 5:74 : Column 'bankable' for stratified sampling does not exist
+2024-04-01 22:08:30,249 : WARN  : main :  : Node : Simple Regression Tree Learner : 5:77 : No configuration available
+2024-04-01 22:08:30,557 : WARN  : main :  : Node : Simple Regression Tree Learner : 5:77 : No configuration available
+2024-04-01 22:09:15,351 : WARN  : main :  : Node : Random Forest Learner : 5:77 : No configuration available
+2024-04-01 22:12:47,907 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:12:48,342 : WARN  : main :  : Node : One to Many : 5:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-01 22:14:01,226 : WARN  : main :  : Node : Scorer : 5:82 : Column 'Class [kNN]' not found.
+2024-04-01 22:14:17,347 : WARN  : main :  : Node : Scorer : 5:82 : Column 'Class [kNN]' not found.
+2024-04-01 22:14:17,885 : WARN  : main :  : Node : Scorer : 5:82 : Column 'Class [kNN]' not found.
+2024-04-01 22:14:24,446 : WARN  : KNIME-Worker-81-Logistic Regression Learner 5:80 :  : Node : Logistic Regression Learner : 5:80 : The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.
+The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
+2024-04-01 22:19:53,935 : WARN  : main :  : Node : Column Rename (deprecated) : 5:62 : The following columns are configured but no longer exist: "Class [kNN]"
+2024-04-01 22:23:08,424 : WARN  : main :  : Node : Column Rename (deprecated) : 5:84 : The following columns are configured but no longer exist: "Prediction (bankable)"

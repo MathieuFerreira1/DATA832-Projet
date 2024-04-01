@@ -1,3 +1,8 @@
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\predictions\datachallenge_FERREIRA_CORTES_PLEBANI_KNN.csv
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\predictions\datachallenge_FERREIRA_CORTES_PLEBANI_RF.csv
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\predictions\datachallenge_FERREIRA_CORTES_PLEBANI_DT.csv
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\predictions\datachallenge_name1_name2_RF.csv
+C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\new_data\bankable_consumer_train_normalized.csv
 C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\data\test_dataset_to_challengers_2021.csv
 C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\data\test_dataset_secret_2021.csv
 C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\knime\data\bankable_consumer_train.csv

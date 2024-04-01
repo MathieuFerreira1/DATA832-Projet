@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_WkJsYOhZEe6WXpZYhd2hMA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_WkJsYehZEe6WXpZYhd2hMA" bindingContexts="_WkJsauhZEe6WXpZYhd2hMA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/DataChallenge_check_submission/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/DataChallenge_check_submission/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/DataChallenge_check_submission/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/DataChallenge_check_submission/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/KNIME_project/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/KNIME_project/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_WkJsYehZEe6WXpZYhd2hMA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_W80rEOhZEe6WXpZYhd2hMA" x="104" y="104" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -39,16 +39,18 @@
           <tags>persp.newWizSC:org.knime.workbench.explorer.view.actions.NewWorkflowWizard</tags>
           <tags>persp.newWizSC:org.knime.workbench.explorer.view.actions.NewWorkflowGroupWizard</tags>
           <tags>persp.viewSC:com.knime.workbench.hubview</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_Xu5BMehZEe6WXpZYhd2hMA" selectedElement="_Xu5BMuhZEe6WXpZYhd2hMA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_Xu5BMuhZEe6WXpZYhd2hMA" containerData="3000" selectedElement="_Xu5BM-hZEe6WXpZYhd2hMA">
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_Xu5BMehZEe6WXpZYhd2hMA" selectedElement="_Xu5BOuhZEe6WXpZYhd2hMA" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_Xu5BMuhZEe6WXpZYhd2hMA" containerData="3000" selectedElement="_Xu5BNehZEe6WXpZYhd2hMA">
               <children xsi:type="basic:PartStack" xmi:id="_Xu5BM-hZEe6WXpZYhd2hMA" elementId="org.knime.workbench.explorer.viewMStack" containerData="3000" selectedElement="_Xu5BNOhZEe6WXpZYhd2hMA">
-                <tags>active</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Xu5BNOhZEe6WXpZYhd2hMA" elementId="org.knime.workbench.explorer.view" ref="_XumGQOhZEe6WXpZYhd2hMA" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:KNIME Views</tags>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_Xu5BNehZEe6WXpZYhd2hMA" containerData="7000" selectedElement="_Xu5BNuhZEe6WXpZYhd2hMA">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_Xu5BNehZEe6WXpZYhd2hMA" containerData="7000" selectedElement="_Xu5BOOhZEe6WXpZYhd2hMA">
                 <children xsi:type="basic:PartStack" xmi:id="_Xu5BNuhZEe6WXpZYhd2hMA" elementId="org.knime.workbench.workflowcoach.viewMStack" containerData="2000" selectedElement="_Xu5BN-hZEe6WXpZYhd2hMA">
                   <children xsi:type="advanced:Placeholder" xmi:id="_Xu5BN-hZEe6WXpZYhd2hMA" elementId="org.knime.workbench.workflowcoach.view" ref="_Xu0IsOhZEe6WXpZYhd2hMA" closeable="true">
                     <tags>View</tags>
@@ -67,7 +69,8 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_Xu5BOuhZEe6WXpZYhd2hMA" containerData="7000" selectedElement="_Xu5BO-hZEe6WXpZYhd2hMA">
               <children xsi:type="basic:PartSashContainer" xmi:id="_Xu5BO-hZEe6WXpZYhd2hMA" containerData="7000" selectedElement="_Xu5BPOhZEe6WXpZYhd2hMA" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_Xu5BPOhZEe6WXpZYhd2hMA" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_XugmsOhZEe6WXpZYhd2hMA"/>
-                <children xsi:type="basic:PartStack" xmi:id="_Xu5BPehZEe6WXpZYhd2hMA" elementId="org.knime.workbench.helpviewMStack" containerData="3000" selectedElement="_Xu5BPuhZEe6WXpZYhd2hMA">
+                <children xsi:type="basic:PartStack" xmi:id="_Xu5BPehZEe6WXpZYhd2hMA" elementId="org.knime.workbench.helpviewMStack" visible="false" containerData="3000" selectedElement="_Xu5BPuhZEe6WXpZYhd2hMA">
+                  <tags>Minimized</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_Xu5BPuhZEe6WXpZYhd2hMA" elementId="org.knime.workbench.helpview" ref="_Xuy6kOhZEe6WXpZYhd2hMA" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:KNIME Views</tags>
@@ -100,6 +103,16 @@
           </children>
         </children>
         <children xsi:type="advanced:Perspective" xmi:id="_ZJyR4OhZEe6WXpZYhd2hMA" elementId="org.knime.ui.java.perspective" contributorURI="platform:/plugin/org.knime.ui.java" selectedElement="_ZJyR4ehZEe6WXpZYhd2hMA" label="KNIME Modern UI" iconURI="platform:/plugin/org.knime.ui.java/icons/knime.png">
+          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.text.quicksearch.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.externaltools.ExternalToolsSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <tags>persp.actionSet:org.knime.workbench.ui.global</tags>
           <children xsi:type="basic:Part" xmi:id="_ZJyR4ehZEe6WXpZYhd2hMA" elementId="org.knime.ui.java.browser.view" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.browser.KnimeBrowserView" iconURI="platform:/plugin/org.knime.ui.java/icons/knime.png"/>
         </children>
       </children>
@@ -126,12 +139,19 @@
       <tags>View</tags>
       <tags>categoryTag:Other</tags>
     </sharedElements>
-    <sharedElements xsi:type="advanced:Area" xmi:id="_XugmsOhZEe6WXpZYhd2hMA" elementId="org.eclipse.ui.editorss" selectedElement="_XugmsehZEe6WXpZYhd2hMA">
-      <children xsi:type="basic:PartStack" xmi:id="_XugmsehZEe6WXpZYhd2hMA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_sJsRcOhZEe6WXpZYhd2hMA">
-        <tags>org.eclipse.e4.primaryDataStack</tags>
-        <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_sJsRcOhZEe6WXpZYhd2hMA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="3: DataChallenge_check_submission" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;3: DataChallenge_check_submission&quot; title=&quot;3: DataChallenge_check_submission&quot; tooltip=&quot;3: DataChallenge_check_submission&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/DataChallenge_check_submission/workflow.knime&quot;/>&#xD;&#xA;&lt;/editor>"/>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_XugmsOhZEe6WXpZYhd2hMA" elementId="org.eclipse.ui.editorss" selectedElement="_KsIoYfBjEe6KLJty1ruaTA">
+      <children xsi:type="basic:PartStack" xmi:id="_KsIoYfBjEe6KLJty1ruaTA" elementId="PartStack@49f7cce" selectedElement="_uBNn8PBVEe6KLJty1ruaTA">
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_uBNn8PBVEe6KLJty1ruaTA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="5: KNIME_project" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;5: KNIME_project&quot; title=&quot;5: KNIME_project&quot; tooltip=&quot;5: KNIME_project&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/KNIME_project/workflow.knime&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.knime.workbench.editor.WorkflowEditor</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_wMoWoPBVEe6KLJty1ruaTA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="6: DataChallenge_check_submission" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;6: DataChallenge_check_submission&quot; title=&quot;6: DataChallenge_check_submission&quot; tooltip=&quot;6: DataChallenge_check_submission&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/DataChallenge_check_submission/workflow.knime&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
@@ -141,10 +161,9 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_XumGQOhZEe6WXpZYhd2hMA" elementId="org.knime.workbench.explorer.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="KNIME Explorer" iconURI="platform:/plugin/org.knime.workbench.explorer.view/icons/knime_explorer.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.knime.workbench.explorer.view.ExplorerView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.knime.workbench.explorer.view"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;content expandedElements=&quot;LOCAL&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;content expandedElements=&quot;&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
-      <tags>active</tags>
       <tags>activeOnClose</tags>
       <menus xmi:id="_X9dosOhZEe6WXpZYhd2hMA" elementId="org.knime.workbench.explorer.view">
         <tags>ViewMenu</tags>
@@ -218,6 +237,7 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_mh4e8OhaEe6WXpZYhd2hMA" elementId="org.knime.workbench.nodemonitorview.nodemonitorview">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -265,9 +285,16 @@
       </children>
     </trimBars>
     <trimBars xmi:id="_WkJsZ-hZEe6WXpZYhd2hMA" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left"/>
-    <trimBars xmi:id="_WkJsaOhZEe6WXpZYhd2hMA" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right"/>
+    <trimBars xmi:id="_WkJsaOhZEe6WXpZYhd2hMA" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_iYE-sOhfEe6Kze89EaEMDQ" elementId="org.knime.workbench.helpviewMStack(IDEWindow).(org.knime.workbench.ui.ModellerPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
   </children>
-  <handlers xmi:id="_RzFlYOH4Eeqv_LafONhFZw" elementId="org.knime.ui.java.handler.switch" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.SwitchToWebUIHandler" command="_XgFkcOH4Eeqv_LafONhFZw"/>
+  <handlers xmi:id="_RzFlYOH4Eeqv_LafONhFZw" elementId="org.knime.ui.java.handler.switch" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.SwitchToWebUIHandler">
+    <command href="platform:/plugin/org.knime.ui.java/fragment.e4xmi#_XgFkcOH4Eeqv_LafONhFZw"/>
+  </handlers>
   <bindingTables xmi:id="_WkJsaehZEe6WXpZYhd2hMA" contributorURI="platform:/plugin/org.eclipse.ui.workbench" bindingContext="_WkJsauhZEe6WXpZYhd2hMA">
     <bindings xmi:id="_Wlcs5-hZEe6WXpZYhd2hMA" keySequence="CTRL+F10" command="_Wk2P9uhZEe6WXpZYhd2hMA"/>
     <bindings xmi:id="_Wlcs7OhZEe6WXpZYhd2hMA" keySequence="CTRL+INSERT" command="_Wk0azehZEe6WXpZYhd2hMA"/>
