@@ -9,7 +9,7 @@
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="org.knime.base.node.preproc.manipulator.table.DataTableBackedBoundedTable@2798eab5">
+                <config key="org.knime.base.node.preproc.manipulator.table.DataTableBackedBoundedTable@1a02b83d">
                     <entry key="num_columns" type="xint" value="18"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="age"/>
@@ -362,7 +362,7 @@
                             </config>
                         </config>
                         <entry key="name" type="xstring" value="marital.status"/>
-                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="keep" type="xboolean" value="false"/>
                         <entry key="position" type="xint" value="5"/>
                         <config key="production_path">
                             <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
@@ -785,7 +785,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="org.knime.base.node.preproc.manipulator.table.EmptyTable@d4f2ee5"/>
+            <entry key="source_group_id" type="xstring" value="org.knime.base.node.preproc.manipulator.table.EmptyTable@47184c69"/>
             <config key="config_id">
                 <config key="table_manipulator"/>
             </config>
@@ -844,12 +844,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 18071, Cols: 11"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 18071, Cols: 10"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="56a7f400-b626-4592-87d4-c7c25b66a9c8"/>
+        <entry key="file_store_id" type="xstring" value="868332d7-66f8-4c2a-b81d-188ab72a9542"/>
     </config>
 </config>

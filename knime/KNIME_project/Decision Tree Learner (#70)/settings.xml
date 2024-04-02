@@ -20,7 +20,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="pruningMethod" type="xstring" value="No pruning"/>
+        <entry key="pruningMethod" type="xstring" value="MDL"/>
         <config key="enableReducedErrorPruning_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -30,22 +30,22 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="minNumberRecordsPerNode" type="xint" value="3"/>
+        <entry key="minNumberRecordsPerNode" type="xint" value="2"/>
         <config key="numverRecordsToView_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="numverRecordsToView" type="xint" value="10000"/>
+        <entry key="numverRecordsToView" type="xint" value="2000"/>
         <config key="splitAverage_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="splitAverage" type="xboolean" value="false"/>
+        <entry key="splitAverage" type="xboolean" value="true"/>
         <config key="numProcessors_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="numProcessors" type="xint" value="10"/>
+        <entry key="numProcessors" type="xint" value="5"/>
         <config key="skipColumnsWithoutDomain_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -116,6 +116,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="fecec380-1154-4db2-a453-577331a2381a"/>
+        <entry key="file_store_id" type="xstring" value="89418a2a-29ea-487e-bd78-7b50f09c6ff6"/>
     </config>
 </config>

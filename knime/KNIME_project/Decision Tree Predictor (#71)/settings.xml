@@ -11,21 +11,21 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="UseGainRatio" type="xint" value="10000"/>
-        <config key="change prediction_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="change prediction" type="xboolean" value="false"/>
-        <config key="prediction column name_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="prediction column name" type="xstring" value="Prediction (bankable)"/>
         <config key="ShowDistribution_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="ShowDistribution" type="xboolean" value="false"/>
+        <config key="prediction column name_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="prediction column name" type="xstring" value="Prediction (bankable)"/>
+        <config key="change prediction_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="change prediction" type="xboolean" value="false"/>
         <config key="class probability suffix_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -53,12 +53,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 5422, Cols: 65"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 5422, Cols: 58"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a32cc317-d37b-4a48-9b21-1b1e94061532"/>
+        <entry key="file_store_id" type="xstring" value="9d0aae5f-a480-4944-9dce-7d5ff12c41dd"/>
     </config>
 </config>

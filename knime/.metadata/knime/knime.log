@@ -520,3 +520,15 @@ java.lang.IllegalStateException: Missing value in row: Row15
 The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?
 2024-04-01 22:19:53,935 : WARN  : main :  : Node : Column Rename (deprecated) : 5:62 : The following columns are configured but no longer exist: "Class [kNN]"
 2024-04-01 22:23:08,424 : WARN  : main :  : Node : Column Rename (deprecated) : 5:84 : The following columns are configured but no longer exist: "Prediction (bankable)"
+2024-04-02 10:34:52,577 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 10:34:52,938 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 12:38:44,652 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 12:38:44,659 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 12:38:44,666 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 12:38:44,667 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 12:38:44,898 : WARN  : ModalContext :  : Node : CSV Reader : 4:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+2024-04-02 12:38:45,234 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 12:48:35,463 : WARN  : main :  : Node : X-Aggregator : 3:89 : Selected columns 'Prediction (bankable)' and 'bankable' as prediction and target columns
+2024-04-02 12:54:02,431 : WARN  : KNIME-Worker-10-Decision Tree Learner 3:86 :  : Node : Decision Tree Learner : 3:86 : Execution canceled
+2024-04-02 12:55:35,627 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 12:55:35,991 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
