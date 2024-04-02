@@ -532,3 +532,160 @@ The covariance matrix could not be calculated because the observed fisher inform
 2024-04-02 12:54:02,431 : WARN  : KNIME-Worker-10-Decision Tree Learner 3:86 :  : Node : Decision Tree Learner : 3:86 : Execution canceled
 2024-04-02 12:55:35,627 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
 2024-04-02 12:55:35,991 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:47:31,430 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 14:47:31,435 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 14:47:31,439 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 14:47:31,440 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 14:47:31,456 : WARN  : ModalContext :  : Node : CSV Reader : 4:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+2024-04-02 14:47:31,473 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 14:51:16,329 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:51:16,339 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:51:47,236 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:51:47,501 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:52:58,856 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:52:59,412 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:53:29,421 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:53:29,753 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:56:21,426 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:56:22,079 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:56:23,277 : WARN  : KNIME-Worker-38-Table Manipulator 3:68 :  : Node : K Nearest Neighbor : 3:75 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 14:56:23,632 : WARN  : KNIME-Worker-41-Partitioning 3:74 :  : Node : K Nearest Neighbor : 3:75 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 14:56:23,637 : WARN  : KNIME-Worker-44-K Nearest Neighbor 3:75 :  : Node : K Nearest Neighbor : 3:75 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 14:57:15,414 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:57:16,121 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:57:38,172 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 14:57:38,453 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 15:03:36,191 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 15:03:36,722 : WARN  : main :  : Node : One to Many : 3:69 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 15:03:38,195 : WARN  : KNIME-Worker-56-Table Manipulator 3:68 :  : Node : K Nearest Neighbor : 3:75 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 15:03:38,410 : WARN  : KNIME-Worker-59-Partitioning 3:74 :  : Node : K Nearest Neighbor : 3:75 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 15:03:38,412 : WARN  : KNIME-Worker-62-K Nearest Neighbor 3:75 :  : Node : K Nearest Neighbor : 3:75 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 15:17:13,986 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:17:13,995 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:17:14,001 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:17:14,002 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:17:14,026 : WARN  : ModalContext :  : Node : CSV Reader : 4:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+2024-04-02 15:17:14,057 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 15:17:21,843 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:17:21,844 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:17:21,848 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:17:21,850 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 3:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:17:21,869 : WARN  : ModalContext :  : Node : CSV Reader : 3:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+2024-04-02 15:17:21,887 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 3:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 15:18:22,339 : WARN  : main :  : Node : Scorer : 3:71 : Column 'income' not found.
+2024-04-02 15:18:22,899 : WARN  : main :  : Node : Scorer : 3:71 : Column 'income' not found.
+2024-04-02 15:18:51,821 : ERROR : KNIME-Worker-1-Column Appender 3:70 :  : Node : Column Appender : 3:70 : Execute failed: Tables can't be joined, non matching row counts: 5422 vs. 7815
+java.lang.IllegalArgumentException: Tables can't be joined, non matching row counts: 5422 vs. 7815
+	at org.knime.core.data.container.JoinedTable.create(JoinedTable.java:303)
+	at org.knime.core.data.container.JoinedTable.create(JoinedTable.java:281)
+	at org.knime.core.data.container.BufferedTableBackend.append(BufferedTableBackend.java:163)
+	at org.knime.core.node.ExecutionContext.createJoinedTable(ExecutionContext.java:641)
+	at org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeModel.joinTablesWithIdenticalKeys(ColumnAppender2NodeModel.java:273)
+	at org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeModel.execute(ColumnAppender2NodeModel.java:203)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-04-02 15:19:00,866 : ERROR : KNIME-Worker-5-Column Appender 3:70 :  : Node : Column Appender : 3:70 : Execute failed: Tables can't be joined, non matching row counts: 5422 vs. 7815
+java.lang.IllegalArgumentException: Tables can't be joined, non matching row counts: 5422 vs. 7815
+	at org.knime.core.data.container.JoinedTable.create(JoinedTable.java:303)
+	at org.knime.core.data.container.JoinedTable.create(JoinedTable.java:281)
+	at org.knime.core.data.container.BufferedTableBackend.append(BufferedTableBackend.java:163)
+	at org.knime.core.node.ExecutionContext.createJoinedTable(ExecutionContext.java:641)
+	at org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeModel.joinTablesWithIdenticalKeys(ColumnAppender2NodeModel.java:273)
+	at org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeModel.execute(ColumnAppender2NodeModel.java:203)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-04-02 15:19:16,936 : WARN  : KNIME-Worker-4-Column Appender 3:70 :  : Node : Column Appender : 3:70 : Table 1 is longer than the selected table 0. Extra rows were ignored.
+2024-04-02 15:21:34,872 : WARN  : KNIME-Worker-18-Column Appender 3:70 :  : Node : Column Appender : 3:70 : Table 1 is shorter than the selected table 0. Corresponding columns were filled using missing values.
+2024-04-02 15:21:34,917 : WARN  : KNIME-Worker-20-Scorer 3:71 :  : Node : Scorer : 3:71 : There were missing values in the reference or in the prediction class columns.
+2024-04-02 15:22:04,084 : ERROR : KNIME-Worker-14-Column Appender 3:70 :  : Node : Column Appender : 3:70 : Execute failed: Tables can't be joined, non matching row counts: 18071 vs. 7815
+java.lang.IllegalArgumentException: Tables can't be joined, non matching row counts: 18071 vs. 7815
+	at org.knime.core.data.container.JoinedTable.create(JoinedTable.java:303)
+	at org.knime.core.data.container.JoinedTable.create(JoinedTable.java:281)
+	at org.knime.core.data.container.BufferedTableBackend.append(BufferedTableBackend.java:163)
+	at org.knime.core.node.ExecutionContext.createJoinedTable(ExecutionContext.java:641)
+	at org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeModel.joinTablesWithIdenticalKeys(ColumnAppender2NodeModel.java:273)
+	at org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeModel.execute(ColumnAppender2NodeModel.java:203)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-04-02 15:28:04,929 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:28:04,938 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:56 : Can't access 'file:/home/alben/datachallenge_name1_name2_2021.csv'. (\home\alben\datachallenge_name1_name2_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:28:04,941 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:28:04,943 : WARN  : ModalContext :  : Node : File Reader (deprecated) : 4:57 : Can't access 'file:/home/alben/test_dataset_secret_2021.csv'. (\home\alben\test_dataset_secret_2021.csv (Le chemin d’accès spécifié est introuvable))
+2024-04-02 15:28:04,961 : WARN  : ModalContext :  : Node : CSV Reader : 4:69 : Execute failed: The specified file \home\alben\test_dataset_to_challengers_2021.csv does not exist.
+2024-04-02 15:28:04,979 : WARN  : ModalContext :  : Node : K Nearest Neighbor : 4:2 : Input table contains more than one non-numeric column; they will be ignored.
+2024-04-02 15:36:07,465 : WARN  : main :  : Node : One to Many : 3:93 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 15:36:22,560 : WARN  : main :  : Node : One to Many : 3:93 : Possible value domain for column "workclass" is empty, use the Domain Calculator node (with a sufficient possible value limit) to create it.
+2024-04-02 15:36:33,047 : WARN  : KNIME-Worker-24-Decision Tree Predictor 3:91 :  : Node : Decision Tree Predictor : 3:91 : Tree only stored first 10000 (of 12091) rows for HiLiting!
+2024-04-02 15:38:00,072 : WARN  : main :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:38:01,019 : WARN  : main :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:38:05,454 : WARN  : KNIME-Worker-28-File Reader (deprecated) 4:57 :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:38:05,872 : WARN  : KNIME-Worker-27-File Reader (deprecated) 4:56 :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:38:05,887 : WARN  : KNIME-Worker-29-Column Appender 4:70 :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:38:44,076 : WARN  : main :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:38:44,746 : WARN  : main :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:38:59,628 : WARN  : KNIME-Worker-30-File Reader (deprecated) 4:57 :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:38:59,629 : ERROR : KNIME-Worker-31-Column Appender 4:70 :  : Node : Column Appender : 4:70 : Execute failed: Tables can't be joined, non matching row counts: 12091 vs. 13025
+java.lang.IllegalArgumentException: Tables can't be joined, non matching row counts: 12091 vs. 13025
+	at org.knime.core.data.container.JoinedTable.create(JoinedTable.java:303)
+	at org.knime.core.data.container.JoinedTable.create(JoinedTable.java:281)
+	at org.knime.core.data.container.BufferedTableBackend.append(BufferedTableBackend.java:163)
+	at org.knime.core.node.ExecutionContext.createJoinedTable(ExecutionContext.java:641)
+	at org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeModel.joinTablesWithIdenticalKeys(ColumnAppender2NodeModel.java:273)
+	at org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeModel.execute(ColumnAppender2NodeModel.java:203)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:811)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-04-02 15:38:59,632 : WARN  : KNIME-Worker-31-Column Appender 4:70 :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:39:03,859 : WARN  : comm-pool-thread-1 :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:39:07,979 : WARN  : KNIME-Worker-32-Column Appender 4:70 :  : Node : Column Appender : 4:70 : Table 1 is longer than the selected table 0. Extra rows were ignored.
+2024-04-02 15:39:07,983 : WARN  : KNIME-Worker-32-Column Appender 4:70 :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:39:51,536 : WARN  : main :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:39:51,905 : WARN  : main :  : Node : Scorer : 4:71 : Column 'income' not found.
+2024-04-02 15:40:00,017 : WARN  : KNIME-Worker-34-Column Appender 4:70 :  : Node : Column Appender : 4:70 : Table 1 is longer than the selected table 0. Extra rows were ignored.

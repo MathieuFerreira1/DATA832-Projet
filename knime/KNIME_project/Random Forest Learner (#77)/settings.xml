@@ -19,7 +19,7 @@
         <entry key="columnAbsolutePerTree" type="xint" value="10"/>
         <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
         <entry key="nrModels" type="xint" value="100"/>
-        <entry key="splitCriterion" type="xstring" value="InformationGain"/>
+        <entry key="splitCriterion" type="xstring" value="Gini"/>
         <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
         <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
         <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
@@ -38,61 +38,61 @@
                 <entry key="7" type="xstring" value="Self-emp-inc"/>
                 <entry key="8" type="xstring" value="Federal-gov"/>
                 <entry key="9" type="xstring" value="Without-pay"/>
-                <entry key="10" type="xstring" value="Widowed"/>
-                <entry key="11" type="xstring" value="Divorced"/>
-                <entry key="12" type="xstring" value="Separated"/>
-                <entry key="13" type="xstring" value="Never-married"/>
-                <entry key="14" type="xstring" value="Married-civ-spouse"/>
-                <entry key="15" type="xstring" value="Married-spouse-absent"/>
-                <entry key="16" type="xstring" value="Married-AF-spouse"/>
-                <entry key="17" type="xstring" value="Exec-managerial"/>
-                <entry key="18" type="xstring" value="Machine-op-inspct"/>
-                <entry key="19" type="xstring" value="Prof-specialty"/>
-                <entry key="20" type="xstring" value="Transport-moving"/>
-                <entry key="21" type="xstring" value="Sales"/>
-                <entry key="22" type="xstring" value="Craft-repair"/>
-                <entry key="23" type="xstring" value="Other-service"/>
-                <entry key="24" type="xstring" value="Adm-clerical"/>
-                <entry key="25" type="xstring" value="Farming-fishing"/>
-                <entry key="26" type="xstring" value="Protective-serv"/>
-                <entry key="27" type="xstring" value="Handlers-cleaners"/>
-                <entry key="28" type="xstring" value="Tech-support"/>
-                <entry key="29" type="xstring" value="Priv-house-serv"/>
-                <entry key="30" type="xstring" value="Armed-Forces"/>
-                <entry key="31" type="xstring" value="Not-in-family"/>
-                <entry key="32" type="xstring" value="Unmarried"/>
-                <entry key="33" type="xstring" value="Own-child"/>
-                <entry key="34" type="xstring" value="Other-relative"/>
-                <entry key="35" type="xstring" value="Husband"/>
-                <entry key="36" type="xstring" value="Wife"/>
-                <entry key="37" type="xstring" value="Female"/>
-                <entry key="38" type="xstring" value="Male"/>
-                <entry key="39" type="xstring" value="Plus de 60 ans"/>
-                <entry key="40" type="xstring" value="De 50 Ã  59 ans"/>
-                <entry key="41" type="xstring" value="De 40 Ã  49 ans"/>
-                <entry key="42" type="xstring" value="De 30 Ã  39 ans"/>
-                <entry key="43" type="xstring" value="Moins de 30 ans"/>
-                <entry key="44" type="xstring" value="Moins de 24h"/>
-                <entry key="45" type="xstring" value="De 35 Ã  45h"/>
-                <entry key="46" type="xstring" value="De 45 Ã  55h"/>
-                <entry key="47" type="xstring" value="Plus de 55h"/>
-                <entry key="48" type="xstring" value="De 24 Ã  35h"/>
-                <entry key="49" type="xstring" value="HS-grad - 9"/>
-                <entry key="50" type="xstring" value="7th-8th - 4"/>
-                <entry key="51" type="xstring" value="Some-college - 10"/>
-                <entry key="52" type="xstring" value="Doctorate - 16"/>
-                <entry key="53" type="xstring" value="Prof-school - 15"/>
-                <entry key="54" type="xstring" value="Masters - 14"/>
-                <entry key="55" type="xstring" value="11th - 7"/>
-                <entry key="56" type="xstring" value="Bachelors - 13"/>
-                <entry key="57" type="xstring" value="Assoc-voc - 11"/>
-                <entry key="58" type="xstring" value="1st-4th - 2"/>
-                <entry key="59" type="xstring" value="5th-6th - 3"/>
-                <entry key="60" type="xstring" value="10th - 6"/>
-                <entry key="61" type="xstring" value="Assoc-acdm - 12"/>
-                <entry key="62" type="xstring" value="12th - 8"/>
-                <entry key="63" type="xstring" value="9th - 5"/>
-                <entry key="64" type="xstring" value="Preschool - 1"/>
+                <entry key="10" type="xstring" value="Exec-managerial"/>
+                <entry key="11" type="xstring" value="Machine-op-inspct"/>
+                <entry key="12" type="xstring" value="Prof-specialty"/>
+                <entry key="13" type="xstring" value="Transport-moving"/>
+                <entry key="14" type="xstring" value="Sales"/>
+                <entry key="15" type="xstring" value="Craft-repair"/>
+                <entry key="16" type="xstring" value="Other-service"/>
+                <entry key="17" type="xstring" value="Adm-clerical"/>
+                <entry key="18" type="xstring" value="Farming-fishing"/>
+                <entry key="19" type="xstring" value="Protective-serv"/>
+                <entry key="20" type="xstring" value="Handlers-cleaners"/>
+                <entry key="21" type="xstring" value="Tech-support"/>
+                <entry key="22" type="xstring" value="Priv-house-serv"/>
+                <entry key="23" type="xstring" value="Armed-Forces"/>
+                <entry key="24" type="xstring" value="Not-in-family"/>
+                <entry key="25" type="xstring" value="Unmarried"/>
+                <entry key="26" type="xstring" value="Own-child"/>
+                <entry key="27" type="xstring" value="Other-relative"/>
+                <entry key="28" type="xstring" value="Husband"/>
+                <entry key="29" type="xstring" value="Wife"/>
+                <entry key="30" type="xstring" value="Plus de 60 ans"/>
+                <entry key="31" type="xstring" value="De 50 Ã  59 ans"/>
+                <entry key="32" type="xstring" value="De 40 Ã  49 ans"/>
+                <entry key="33" type="xstring" value="De 30 Ã  39 ans"/>
+                <entry key="34" type="xstring" value="Moins de 30 ans"/>
+                <entry key="35" type="xstring" value="Moins de 24h"/>
+                <entry key="36" type="xstring" value="De 35 Ã  45h"/>
+                <entry key="37" type="xstring" value="De 45 Ã  55h"/>
+                <entry key="38" type="xstring" value="Plus de 55h"/>
+                <entry key="39" type="xstring" value="De 24 Ã  35h"/>
+                <entry key="40" type="xstring" value="HS-grad - 9"/>
+                <entry key="41" type="xstring" value="7th-8th - 4"/>
+                <entry key="42" type="xstring" value="Some-college - 10"/>
+                <entry key="43" type="xstring" value="Doctorate - 16"/>
+                <entry key="44" type="xstring" value="Prof-school - 15"/>
+                <entry key="45" type="xstring" value="Masters - 14"/>
+                <entry key="46" type="xstring" value="11th - 7"/>
+                <entry key="47" type="xstring" value="Bachelors - 13"/>
+                <entry key="48" type="xstring" value="Assoc-voc - 11"/>
+                <entry key="49" type="xstring" value="1st-4th - 2"/>
+                <entry key="50" type="xstring" value="5th-6th - 3"/>
+                <entry key="51" type="xstring" value="10th - 6"/>
+                <entry key="52" type="xstring" value="Assoc-acdm - 12"/>
+                <entry key="53" type="xstring" value="12th - 8"/>
+                <entry key="54" type="xstring" value="9th - 5"/>
+                <entry key="55" type="xstring" value="Preschool - 1"/>
+                <entry key="56" type="xstring" value="Widowed"/>
+                <entry key="57" type="xstring" value="Divorced"/>
+                <entry key="58" type="xstring" value="Separated"/>
+                <entry key="59" type="xstring" value="Never-married"/>
+                <entry key="60" type="xstring" value="Married-civ-spouse"/>
+                <entry key="61" type="xstring" value="Married-spouse-absent"/>
+                <entry key="62" type="xstring" value="Married-AF-spouse"/>
+                <entry key="63" type="xstring" value="Female"/>
+                <entry key="64" type="xstring" value="Male"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -173,6 +173,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" value="filestore"/>
-        <entry key="file_store_id" type="xstring" value="6e2e4bb6-73cc-4715-aeba-fbdaa19b4b00"/>
+        <entry key="file_store_id" type="xstring" value="28a030c9-0e15-4cfa-9ba1-600b878cd151"/>
     </config>
 </config>
