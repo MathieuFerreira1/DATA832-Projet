@@ -1,8 +1,8 @@
 file:/C:/Users/Carlos%20Andres%20Cortes/OneDrive/Polytech/Polytech4A/S8/DATA832/projet/DATA832-Projet/info_init/bankable_consumer_train.csv
+file:/C:/Users/Carlos%20Andres%20Cortes/OneDrive/Polytech/Polytech4A/S8/DATA832/projet/DATA832-Projet/knime/predictions/datachallenge_FERREIRA_CORTES_PLEBANI_RF_AllData.csv
+knime://knime.workflow/data.all
 C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\info_init\bankable_consumer_train.csv
 C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\info_init\datachallenge_Dupont_Holmes_2023.uncomplete.csv
 file:/C:/Users/Carlos%20Andres%20Cortes/OneDrive/Polytech/Polytech4A/S8/DATA832/projet/DATA832-Projet/info_init/test_dataset_to_challengers_2023.csv
 C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\info_init\test_dataset_to_challengers_2023.csv
 file:/C:/Users/Carlos%20Andres%20Cortes/OneDrive/Polytech/Polytech4A/S8/DATA832/projet/DATA832-Projet/new_data/test_dataset_to_challengers_2023_normalized.csv
-C:\Users\Carlos Andres Cortes\OneDrive\Polytech\Polytech4A\S8\DATA832\projet\DATA832-Projet\new_data\test_dataset_to_challengers_2023_normalized.csv
-file:/C:/Users/Carlos%20Andres%20Cortes/OneDrive/Polytech/Polytech4A/S8/DATA832/projet/DATA832-Projet/knime/predictions/datachallenge_FERREIRA_CORTES_PLEBANI_RF_AllData.csv
